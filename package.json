@@ -4,6 +4,7 @@
   "author": "Kevin ALBERCA <kevin@alberca.fr>",
   "dependencies":{
     "express":"4.13.3",
-    "body-parser":"1.14.1"
+    "body-parser":"1.14.1",
+    "ejs": "2.3.4"
   }
 }
