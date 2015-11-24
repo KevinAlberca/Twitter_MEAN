@@ -1,0 +1,9 @@
+{
+  "name": "Blog-MEAN",
+  "version": "0.1.0",
+  "author": "Kevin ALBERCA <kevin@alberca.fr>",
+  "dependencies":{
+    "express":"4.13.3",
+    "body-parser":"1.14.1"
+  }
+}
