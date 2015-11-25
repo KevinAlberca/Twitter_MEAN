@@ -2,15 +2,20 @@
  * Created by AwH on 24/11/15.
  */
 
-var express = require("express");
-var app = express();
-var bodyParser = require("body-parser");
+var express = require("express"),
+    app = express(),
+    bodyParser = require("body-parser"),
+    port = process.env.PORT || 3000;
 
-var port = process.env.PORT || 3000;
 
+app.use(bodyParser.json({ extends:true }));
+//app.use(express.static(__dirname + '/public'));
+
+require('./serveur/routes')(app);
 
 if(app.listen(port)){
-    console.log('Application disponible sur le port ' + port);
+    exports = module.exports = app;
+    console.log("Application disponible sur le port " + port);
 } else {
-    console.log('L\'application n\'a pas pu etre demaree');
+    console.log("L'application n'a pas pu etre demaree");
 }
