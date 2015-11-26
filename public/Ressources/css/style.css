@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  padding: 70px 0 0; }
+  padding: 50px 0 0; }
 
 header {
   width: 100%;
@@ -9,20 +9,16 @@ header {
   position: fixed;
   top: 0;
   text-align: center;
-  height: 70px; }
-  header .navbar-default {
-    padding: 10px 0; }
+  height: 50px; }
   header .navbar-brand {
     height: 65px;
     width: 65px;
-    margin: -8px -32.5px 0;
     left: 50%;
     right: 50%;
     position: fixed; }
     header .navbar-brand .logo {
-      width: 65px;
-      margin: auto;
-      text-align: center; }
+      text-align: center;
+      margin: -6px -16.25px 0; }
 
 #center {
   width: 1px;

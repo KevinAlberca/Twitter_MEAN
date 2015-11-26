@@ -9,7 +9,7 @@ $lightDark:#222;
 
 body {
   background-color:white;
-  padding:70px 0 0;
+  padding:50px 0 0;
 }
 
 header {
@@ -19,24 +19,18 @@ header {
   position:fixed;
   top:0;
   text-align: center;
-  height:70px;
-
-  .navbar-default {
-    padding:10px 0;
-  }
+  height:50px;
 
     .navbar-brand {
       height:65px;
       width:65px;
-      margin:-8px -32.5px 0;
       left:50%;
       right:50%;
       position:fixed;
 
       .logo {
-        width:65px;
-        margin:auto;
         text-align:center;
+        margin:-6px -16.25px 0;
       }
     }
 }
