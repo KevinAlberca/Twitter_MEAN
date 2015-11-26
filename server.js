@@ -9,9 +9,12 @@ var express = require("express"),
 
 
 app.use(bodyParser.json({ extends:true }));
-//app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/config'));
+app.use('/config', express.static('./config'));
+app.use('/', express.static('./'));
 
-require('./serveur/routes')(app);
+
+require('./config/routes')(app);
 
 if(app.listen(port)){
     exports = module.exports = app;
