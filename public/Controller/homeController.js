@@ -3,5 +3,5 @@
  */
 
 angular.module('Twitter_MEAN').controller('homeController', ['$scope', function($scope){
-    $scope.user = 'Michou';
+
 }]);
