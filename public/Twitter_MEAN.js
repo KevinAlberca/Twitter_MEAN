@@ -15,9 +15,9 @@ myApp.config(['$routeProvider',
             .when('/home', {
                 templateUrl: '/public/Views/home.html'
             })
-            .when('/test', {
-                templateUrl: '/public/Views/test.html',
-                controller: 'testController'
+            .when('/profile', {
+                templateUrl: '/public/Views/profile.html',
+                controller: 'profileController'
             })
             .otherwise({
             redirectTo: '/'
