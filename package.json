@@ -1,10 +1,12 @@
 {
-  "name": "Blog-MEAN",
+  "name": "Twitter-MEAN",
   "version": "0.1.0",
   "author": "Kevin ALBERCA <kevin@alberca.fr>",
   "dependencies":{
     "express":"4.13.3",
     "body-parser":"1.14.1",
+    "angular": "1.4.8",
+    "angular-route": "1.4.8",
     "ejs": "2.3.4"
   }
 }
