@@ -5,7 +5,6 @@
 
 module.exports = function(app){
     app.get('/', function(req, res){
-        console.log('/index.html');
         res.sendFile(__dirname);
     });
 };
