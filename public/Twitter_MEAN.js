@@ -8,12 +8,18 @@ var myApp = angular.module('Twitter_MEAN',[
 
 myApp.config(['$routeProvider',
     function ($routeProvider){
-        $routeProvider.
-        when('/', {
-            templateUrl: '/index.html',
-            controller: 'homeController'
-        }).
-        otherwise({
+        $routeProvider
+            .when('/', {
+                templateUrl: '/public/Views/home.html'
+            })
+            .when('/home', {
+                templateUrl: '/public/Views/home.html'
+            })
+            .when('/test', {
+                templateUrl: '/public/Views/test.html',
+                controller: 'testController'
+            })
+            .otherwise({
             redirectTo: '/'
         });
 

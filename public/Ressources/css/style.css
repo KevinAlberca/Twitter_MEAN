@@ -1,0 +1,37 @@
+body {
+  background-color: white;
+  padding: 70px 0 0; }
+
+header {
+  width: 100%;
+  background-color: #ecf0f1;
+  border-bottom: 3px solid #2980b9;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  height: 70px; }
+  header .navbar-default {
+    padding: 10px 0; }
+  header .navbar-brand {
+    height: 65px;
+    width: 65px;
+    margin: -8px -32.5px 0;
+    left: 50%;
+    right: 50%;
+    position: fixed; }
+    header .navbar-brand .logo {
+      width: 65px;
+      margin: auto;
+      text-align: center; }
+
+#center {
+  width: 1px;
+  background: deeppink;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,55 @@
+$lightBlue: #3498db;
+$darkBlue: #2980b9;
+
+$lightWhite:#ecf0f1;
+$darkWhite: #c5cacb;
+
+$lightBlack:#555;
+$lightDark:#222;
+
+body {
+  background-color:white;
+  padding:70px 0 0;
+}
+
+header {
+  width:100%;
+  background-color: $lightWhite;
+  border-bottom:3px solid $darkBlue;
+  position:fixed;
+  top:0;
+  text-align: center;
+  height:70px;
+
+  .navbar-default {
+    padding:10px 0;
+  }
+
+    .navbar-brand {
+      height:65px;
+      width:65px;
+      margin:-8px -32.5px 0;
+      left:50%;
+      right:50%;
+      position:fixed;
+
+      .logo {
+        width:65px;
+        margin:auto;
+        text-align:center;
+      }
+    }
+}
+
+
+
+#center {
+  width:1px;
+  background:deeppink;
+  position: fixed;
+  margin:auto;
+  top:0;
+  left: 0;
+  bottom:0;
+  right:0;
+}

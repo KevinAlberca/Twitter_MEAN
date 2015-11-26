@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" ng-app="Twitter_MEAN">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -9,13 +9,17 @@
     <script src="/node_modules/angular-route/angular-route.min.js"></script>
     <script src="/public/Twitter_MEAN.js"></script>
 </head>
-<body>
+<body ng-app="Twitter_MEAN">
     <div ng-include="'/public/Templates/header.html'"></div>
 
-<h1>COUCOU</h1>
+    <div ng-view></div>
 
+    <div id="center"></div>
 
-    <!--<script src="/public/Ressources/js/jquery-2.1.4.min.js"></script>-->
-    <!--<script src="/public/Ressources/js/bootstrap.min.js"></script>-->
+    <script src="/public/Ressources/js/jquery-2.1.4.min.js"></script>
+    <script src="/public/Ressources/js/bootstrap.min.js"></script>
+
+    <!-- Controller -->
+    <script src="/public/Controller/testController.js"></script>
 </body>
 </html>
