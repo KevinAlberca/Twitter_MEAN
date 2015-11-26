@@ -9,9 +9,9 @@ var express = require("express"),
 
 
 app.use(bodyParser.json({ extends:true }));
-app.use(express.static(__dirname + '/config'));
-app.use('/config', express.static('./config'));
 app.use('/', express.static('./'));
+app.use('/node_modules/angular', express.static('./node_modules/angular'));
+app.use('/node_modules/angular-route', express.static('./node_modules/angular-route'));
 
 
 require('./config/routes')(app);
