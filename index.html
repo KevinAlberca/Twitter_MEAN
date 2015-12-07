@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title ng-bind="title"></title>
     <link rel="stylesheet" href="/public/Ressources/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/public/Ressources/css/style.css" />
     <script src="/node_modules/angular/angular.min.js"></script>
@@ -14,12 +14,13 @@
 
     <div ng-view></div>
 
-    <div id="center"></div>
 
+    <!-- <div id="center"></div> -->
+    <!-- Controller -->
+    <script src="/public/Controller/userController.js"></script>
+    <script src="/public/Controller/messagesController.js"></script>
+    <!-- Assets -->
     <script src="/public/Ressources/js/jquery-2.1.4.min.js"></script>
     <script src="/public/Ressources/js/bootstrap.min.js"></script>
-
-    <!-- Controller -->
-    <script src="/public/Controller/testController.js"></script>
 </body>
 </html>

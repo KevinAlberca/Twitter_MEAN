@@ -10,13 +10,23 @@ myApp.config(['$routeProvider',
     function ($routeProvider){
         $routeProvider
             .when('/', {
-                templateUrl: '/public/Views/home.html'
+                templateUrl: '/public/Views/home.html',
+                controller: 'messagesController'
             })
             .when('/home', {
-                templateUrl: '/public/Views/home.html'
+                templateUrl: '/public/Views/home.html',
+                controller: 'messagesController'
             })
             .when('/profile', {
                 templateUrl: '/public/Views/profile.html',
+                controller: 'userController'
+            })
+            .when('/login', {
+                templateUrl: '/public/Views/login.html',
+                controller: 'userController'
+            })
+            .when('/registration', {
+                templateUrl: '/public/Views/registration.html',
                 controller: 'profileController'
             })
             .otherwise({
