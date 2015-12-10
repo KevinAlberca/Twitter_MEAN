@@ -11,4 +11,8 @@ module.exports = function(app){
     app.post('/messages/new', function(req, res){
         console.log(req.body);
     });
+
+    app.post('/users/new', function(req, res){
+        console.log(req.body);
+    });
 };
