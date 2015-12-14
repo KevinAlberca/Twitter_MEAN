@@ -13,6 +13,8 @@ module.exports = function(app){
     });
 
     app.post('/users/new', function(req, res){
-        console.log(req.body);
+        console.log("COUCOU");
+        console.log(req);
+        res.sendStatus(200);
     });
 };
