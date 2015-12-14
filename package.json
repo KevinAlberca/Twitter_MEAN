@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "author": "Kevin ALBERCA <kevin@alberca.fr>",
   "description": "Twitter en utilisant la stack M(ongo)E(xpress)A(ngular)N(ode)",
-  "dependencies":{
-    "express":"4.13.3",
-    "body-parser":"1.14.1",
+  "dependencies": {
+    "express": "4.13.3",
+    "body-parser": "1.14.1",
     "angular": "1.4.8",
     "angular-route": "1.4.8",
-    "mongoose": "4.2.8"
+    "mongoose": "4.2.8",
+    "passport": "^0.3.2"
   }
 }
