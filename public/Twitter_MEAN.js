@@ -27,7 +27,7 @@ myApp.config(['$routeProvider',
             })
             .when('/registration', {
                 templateUrl: '/public/Views/registration.html',
-                controller: 'profileController'
+                controller: 'userController'
             })
             .otherwise({
             redirectTo: '/'
