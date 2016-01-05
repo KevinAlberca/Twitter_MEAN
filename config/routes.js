@@ -13,6 +13,7 @@ module.exports = function(app){
     });
 
     app.post('/users/new', function(req, res){
+        console.log(User);
         console.log(req.body);
         res.sendStatus(200);
     });

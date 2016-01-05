@@ -6,7 +6,6 @@ angular.module('Twitter_MEAN').controller('userController', [ '$scope', '$http',
     $scope.register = function (data){
         if(data.$valid){
             $scope.response = "Waiting a response of server";
-
             if(data.password === data.passwordCheck){
                 $http({
                    url: '/users/new',
@@ -14,6 +13,8 @@ angular.module('Twitter_MEAN').controller('userController', [ '$scope', '$http',
                    data: data,
                    headers: {'Content-Type': 'application/json'}
                })
+
+               $scope.response = "Ok";
            } else {
                $scope.response = "Password should be the same";
            }
